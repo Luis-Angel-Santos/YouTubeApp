@@ -12,7 +12,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.youtubeservice.getVideos()
-      .subscribe(resp => {
+      .subscribe( resp => {
         console.log(resp);
       });
   }
